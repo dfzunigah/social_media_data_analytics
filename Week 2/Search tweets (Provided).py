@@ -168,7 +168,6 @@ def tw_search(api):
         #TECHNOLOGY INFO
         geoenable = tweet.author.geo_enabled     #is author/user account geo enabled?
         source    = tweet.source                 #platform source for tweet
-		# Dongho 03/28/16
         csvWriter.writerow([created, str(text).encode("utf-8"), retwc, hashtag, followers, friends])
         counter = counter +1
         if (counter == c):
