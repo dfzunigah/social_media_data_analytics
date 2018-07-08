@@ -1,3 +1,6 @@
+#You'll need to download the file at:
+#   https://github.com/WinVector/zmPDSwR/blob/master/Custdata/custdata.tsv
+
 #Loads the plotting library
 library(ggplot2)
 
